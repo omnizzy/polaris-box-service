@@ -18,7 +18,7 @@ public class BoxController {
         this.boxService = boxService;
     }
 
-    @PostMapping
+    @PostMapping("/create_box")
     public ResponseEntity<BoxResponse> createBox(@Valid @RequestBody CreateBoxDto dto) {
         BoxResponse res = boxService.createBox(dto);
         return ResponseEntity.status(HttpStatus.CREATED).body(res);
