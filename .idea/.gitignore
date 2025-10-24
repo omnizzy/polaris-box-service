@@ -1,8 +1,69 @@
-# Default ignored files
+# =======================================
+# IntelliJ IDEA & IDE settings
+# =======================================
+.idea/
+*.iml
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
 /httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+dataSources/
+dataSources.local.xml
+
+# =======================================
+# Build directories
+# =======================================
+/target/
+/build/
+/out/
+
+# =======================================
+# Logs & temporary files
+# =======================================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# =======================================
+# OS-specific files
+# =======================================
+.DS_Store
+Thumbs.db
+
+# =======================================
+# Environment files
+# =======================================
+.env
+*.env
+*.properties.local
+
+# =======================================
+# H2 Database & other embedded DB files
+# =======================================
+*.mv.db
+*.h2.db
+*.trace.db
+*.db
+*.script
+*.data
+*.lock.db
+*.lck
+.mv.db
+.trace.db
+
+# =======================================
+# Maven wrapper / gradle cache
+# =======================================
+.mvn/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =======================================
+# Others
+# =======================================
+*.class
+*.jar
+*.war
+*.ear

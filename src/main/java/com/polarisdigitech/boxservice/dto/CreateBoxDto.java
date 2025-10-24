@@ -2,9 +2,11 @@ package com.polarisdigitech.boxservice.dto;
 
 import com.polarisdigitech.boxservice.enums.BoxState;
 import jakarta.validation.constraints.*;
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class CreateBoxDto {
     @NotBlank
     @Size(max = 20)
